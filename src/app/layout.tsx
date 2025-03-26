@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} antialiased bg-gray-900 text-white flex flex-col min-h-screen`}
       >
-        <header className="fixed top-0 left-0 w-full bg-gray-800 rounded-md shadow-md">
+        <header className="fixed top-0 left-0 w-full bg-black rounded-md shadow-md">
           <Navbar/>
           </header>
           {/** main content*/}

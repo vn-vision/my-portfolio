@@ -4,10 +4,13 @@ function AboutMe() {
   return (
     <div className="flex flex-col md:flex-row-reverse gap-5 p-5 justify-evenly w-full h-screen">
       <div className='flex flex-col gap-5 text-justify w-full md:w-[45%]'>
-        <h2 className="text-gray-200 font-bold text-2xl">
+        <>
+        <p>Who am I ...</p>
+        <h2 className="text-gray-200 font-bold text-4xl">
           Hello! I'm Victor Ng'ang'a.
         </h2>
-        <p className='text-gray-300 text-lg'>
+        </>
+        <p className='text-gray-300 text-xl'>
           Every great software begins with an even better story.
         </p>
         <p><i>

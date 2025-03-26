@@ -1,5 +1,7 @@
 import Image from "next/image";
 import AboutMe from "./(pages)/about/page";
+import MyProjects from "./(pages)/projects/page";
+import SayHi from "./(pages)/contact/page";
 
 export default function Home() {
   return (
@@ -48,6 +50,14 @@ export default function Home() {
         </div>
       </div>
       <AboutMe />
+      <div className="w-full h-[20%] flex items-center justify-evenly gap-5 p-5 my-[20%] md:my-[10%]">
+        <p className="text-7xl">C</p>
+        <p className="text-7xl">Py</p>
+        <p className="text-7xl">JS</p>
+      </div>
+      <MyProjects />
+      <div className="my-[10%]"></div>
+      <SayHi />
     </div>
   );
 }
