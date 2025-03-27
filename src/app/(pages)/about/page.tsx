@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <div className="flex flex-col md:flex-row-reverse gap-5 p-5 justify-evenly w-full h-screen">
+    <div className="flex flex-col md:flex-row-reverse gap-5 p-10 justify-evenly w-[90%] h-fit m-auto my-[10%] md:my-[5%]">
       <div className='flex flex-col gap-5 text-justify w-full md:w-[45%]'>
         <>
         <p>Who am I ...</p>

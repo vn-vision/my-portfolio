@@ -31,13 +31,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} antialiased bg-gray-900 text-white flex flex-col min-h-screen`}
       >
-        <header className="fixed top-0 left-0 w-full bg-black rounded-md shadow-md">
-          <Navbar/>
-          </header>
-          {/** main content*/}
-          <main className="flex-grow mt-[20vh] px-6">{children}</main>
-          {/**Footer */}
-        <footer className="mt-auto py-4 bg-gray-800 text-center text-lg">
+        <main className="flex-grow px-10">{children}</main>
+        <footer className="mt-auto py-5 bg-gray-900 text-center text-lg">
           <p>&copy; 2025 Victor Ng'ang'a. All Rights Reserved.</p>
         </footer>
       </body>
