@@ -3,6 +3,7 @@ import AboutMe from "./(pages)/about/page";
 import MyProjects from "./(pages)/projects/page";
 import SayHi from "./(pages)/contact/page";
 import Navbar from "./components/Navbar";
+import {FaPython, FaReact, FaNodeJs} from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -28,15 +29,15 @@ export default function Home() {
                 width={200}
                 height={200}
                 alt="Victor Ng'ang'a"
-                className="transform rotate-325 ml-[-40%] mt-[40%] ring"
+                className="transform  ml-[-40%] mt-[35%] shadow-md inset-shadow-md rounded-r-[50]"
               />
 
               {/* Floating Skills - The Horizontal Aura */}
-              <div className="absolute inset-0 bg-black/50 backdrop-blur-lg w-36 h-36 md:w-48 md:h-48 top-[-10%] left-[65%] translate-x-[-25%] flex justify-center gap-10 items-center rounded-full shadow-lg shadow-orange-400">
-                {["React", "TypeScript", "Python", "C"].map((skill, index) => (
+              <div className="absolute inset-0 bg-black/50 backdrop-blur-lg w-36 h-36 md:w-48 md:h-48 top-[10%] left-[80%] translate-x-[-25%] flex justify-center gap-10 items-center rounded-full shadow-lg shadow-orange-400">
+                {[<FaPython/>, <FaReact/>, <FaNodeJs/> ].map((skill, index) => (
                   <div
-                    key={skill}
-                    className={`absolute animate-horizontal-${index} bg-blue-500 text-white px-3 py-1 rounded-full text-sm shadow-lg  
+                    key={index}
+                    className={`absolute animate-horizontal-${index} bg-green-400 text-gray-800 p-2 rounded-full text-md md:text-lg inset-shadow-md inset-shadow-orange-300 shadow-lg shadow-orange-200
           hover:scale-110 hover:shadow-blue-400 transition-transform`}
                   >
                     {skill}

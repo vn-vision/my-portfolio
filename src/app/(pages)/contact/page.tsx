@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaXTwitter, FaSquareGithub, FaLinkedinIn, FaPhoneVolume,  } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 function SayHi() {
   return (
@@ -11,11 +13,11 @@ function SayHi() {
             <p className='text-2xl'>Start by <a href="mailto:vctrngang@gmail.com"><u className='text-green-400 hover:text-green-300'>Saying Hi</u></a></p>
           </div>
           <span className='flex gap-10 p-5'>
-              <i>X</i>
-              <i>G</i>
-              <i>F</i>
-              <i>X</i>
-              <i>I</i>
+              <a href="https://www.linkedin.com/in/victor-nganga-s-3-d"><FaLinkedinIn /></a>
+              <a href="https://github.com/vn-vision"><FaSquareGithub /></a>
+              <a href=""><FaXTwitter /></a>
+              <a href="mailto:vctrngang@gmail.com"><MdEmail /></a>
+              <a href="tel:254114122162"><FaPhoneVolume /></a>
             </span>
         </div>
 

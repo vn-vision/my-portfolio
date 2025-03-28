@@ -15,6 +15,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --inset-shadow-md: inset -5px -1px 5px rgba(0, 0, 0, 0.25); 
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -30,23 +34,23 @@ body {
 
 
 @keyframes horizontal-0 {
-  0% { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-  100% { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+  0% { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
 
 @keyframes horizontal-1 {
-  0% { transform: rotate(90deg) translateX(150px) rotate(-90deg); }
-  100% { transform: rotate(450deg) translateX(150px) rotate(-450deg); }
+  0% { transform: rotate(90deg) translateX(100px) rotate(-90deg); }
+  100% { transform: rotate(450deg) translateX(100px) rotate(-450deg); }
 }
 
 @keyframes horizontal-2 {
-  0% { transform: rotate(180deg) translateX(150px) rotate(-180deg); }
-  100% { transform: rotate(540deg) translateX(150px) rotate(-540deg); }
+  0% { transform: rotate(180deg) translateX(100px) rotate(-180deg); }
+  100% { transform: rotate(540deg) translateX(100px) rotate(-540deg); }
 }
 
 @keyframes horizontal-3 {
-  0% { transform: rotate(270deg) translateX(150px) rotate(-270deg); }
-  100% { transform: rotate(630deg) translateX(150px) rotate(-630deg); }
+  0% { transform: rotate(270deg) translateX(100px) rotate(-270deg); }
+  100% { transform: rotate(630deg) translateX(100px) rotate(-630deg); }
 }
 
 @media screen and (min-width: 768px) {
