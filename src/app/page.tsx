@@ -7,16 +7,16 @@ import {FaPython, FaReact, FaNodeJs} from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full min-h-screen overflow-y-auto p-10">
+    <div className="flex flex-col w-full lg:w-[90%] m-auto min-h-screen overflow-y-auto p-3">
       <Navbar />
-      <div className="flex flex-col gap-5 p-5 justify-evenly w-[90%] h-fit m-auto my-[10%] md:my-[5%]">
+      <div className="flex flex-col gap-5 justify-evenly w-full h-fit m-auto my-[10%] md:my-[5%] lg:w-[80%]">
         {/* Left Section */}
-        <div className="flex flex-col-reverse md:flex-row gap-10 p-5 w-[80%] m-auto ">
-          <div className="flex flex-col gap-5 p-5 justify-evenly">
-            <h2 className="bg-green-500 hover:bg-green-700 text-gray-800 font-bold py-2 px-4 w-fit h-auto rounded">
+        <div className="flex flex-col-reverse md:flex-row gap-10 w-full m-auto ">
+          <div className="flex flex-col gap-5 justify-evenly">
+            <h2 className="bg-green-500 hover:bg-green-700 text-gray-800 font-bold py-2 px-4 w-full h-auto rounded">
               Back-End Developer
             </h2>
-            <p className="text-4xl mt-2">Talk is cheap. Show me the code</p>
+            <p className="text-3xl mt-2">Talk is cheap. Show me the code</p>
             <p className="text-lg"><i> I build connections and b dreams to life.</i></p>
             <p className="text-green-500 text-xl mt-[10%]">LET'S CHAT!</p>
           </div>
@@ -53,33 +53,33 @@ export default function Home() {
           </div>
       </div>
       <AboutMe />
-      <div className="w-[80%] h-[20%] flex items-center justify-evenly gap-5 p-5 my-[10%] md:my-[5%] m-auto ">
+      <div className="w-full h-[20%] flex items-center justify-evenly gap-5 my-[10%] md:my-[5%] m-auto ">
         <p className="text-7xl">C</p>
         <p className="text-7xl">Py</p>
         <p className="text-7xl">JS</p>
       </div>
       <MyProjects />
-      <div className="h-fit w-[80%] flex flex-col justify-evenly gap-10 p-10 mx-auto my-[10%] md:my-[5%] ">
+      <div className="h-fit w-full lg:w-[80%] flex flex-col justify-evenly gap-10 mx-auto my-[10%] md:my-[5%] ">
         <span className="flex justify-between items-center gap-5 w-full"><h1 className="text-2xl md:text-4xl" >Awards</h1><p className="w-[80%] text-sm md:text-lg">Awards make my projects even more valuable</p></span>
         <span className="flex justify-between w-full"><i className="text-green-300">2024</i>
           <ul className="flex flex-col gap-5 justify-evenly w-[80%]">
             <li>
-              <h3 className="text-sm">ALX</h3>
+              <h3 className="text-sm text-green-400">ALX</h3>
               <p className="text-2xl">Back-End Developer</p>
             </li>
             <li>
-              <h3 className="text-sm">ALX</h3>
+              <h3 className="text-sm text-green-400">ALX</h3>
               <p className="text-2xl">IOT/Robotics Developer</p>
             </li>
           </ul></span>
         <span className="flex justify-between w-full"><i className="text-green-300">2024</i>
           <ul className="flex flex-col gap-5 justify-evenly w-[80%]">
             <li>
-              <h3 className="text-sm">KCAU</h3>
+              <h3 className="text-sm text-green-400">KCAU</h3>
               <p className="text-2xl">Software Developer</p>
             </li>
             <li>
-              <h3 className="text-sm">KCAU</h3>
+              <h3 className="text-sm text-green-400">KCAU</h3>
               <p className="text-2xl">Innovator</p>
             </li>
           </ul></span>

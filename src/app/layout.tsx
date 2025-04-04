@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <main className="flex-grow px-10">{children}</main>
         <footer className="mt-auto py-5 bg-gray-900 text-center text-lg">
-          <p>&copy; 2025 Victor Ng'ang'a. All Rights Reserved.</p>
+          <i className="text-sm">&copy; 2025 Victor Ng'ang'a. All Rights Reserved.</i>
         </footer>
       </body>
     </html>

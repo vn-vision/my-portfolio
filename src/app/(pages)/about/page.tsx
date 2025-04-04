@@ -7,12 +7,13 @@ import { FaHtml5 } from "react-icons/fa";
 
 function AboutMe() {
   return (
-    <div className="flex flex-col md:flex-row-reverse gap-5 p-10 justify-evenly w-[90%] h-fit m-auto my-[10%] md:my-[5%]">
+    <div className="flex flex-col md:flex-row-reverse gap-5  justify-evenly w-full lg:w-[80%] h-fit m-auto my-[10%] md:my-[5%]">
       <div className='flex flex-col gap-5 text-justify w-full md:w-[45%]'>
         <>
           <p>Who am I ...</p>
           <h2 className="text-gray-200 font-bold text-4xl">
-            Hello! I'm Victor Ng'ang'a.
+            <p>Hello!</p>
+            <p className='text-left'>I'm Victor Ng'ang'a.</p>
           </h2>
         </>
         <p className='text-gray-300 text-xl'>
