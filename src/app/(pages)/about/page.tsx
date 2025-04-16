@@ -13,14 +13,14 @@ function AboutMe() {
           <p>Who am I ...</p>
           <h2 className="text-gray-200 font-bold text-4xl">
             <p>Hello!</p>
-            <p className='text-left'>I'm Victor Ng'ang'a.</p>
+            <p className='text-left'>I'm Victor Ng&rsquo;ang&rsquo;a.</p>
           </h2>
         </>
         <p className='text-gray-300 text-xl'>
           Code is my medium. Real-world impact is my goal. I specialize in bringing structure to ambitious ideas.
         </p>
         <p><i>
-        With years of experience solving real-world challenges, I’ve collaborated on retail tools, real estate systems, and automation projects.
+        With years of experience solving real-world challenges, I&rsquo;ve collaborated on retail tools, real estate systems, and automation projects.
         I'm curious by nature, mission-driven by choice, and always on a journey to level up my craft — one project, one breakthrough at a time.
         </i></p>
       </div>

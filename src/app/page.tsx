@@ -17,8 +17,8 @@ export default function Home() {
             <h2 className="bg-green-500 hover:bg-green-700 text-gray-800 font-bold py-2 px-4 w-full h-auto rounded">
               Backend-Focused Fullstack Dev | Django, Node, JS/TS, MySQL, C, Py
             </h2>
-            <p className="text-lg mt-2"><span className="font-bold text-2xl">Secret Ops: </span> Real-World Problems.<br></br><span className="font-bold text-2xl">Mission:</span> Code 'Em Out.</p>
-            <p className="text-lg"><i className="font-bold">Codename: S.C.A.L.E. </i><br></br><i> (Strategic Coder Adapting Life’s Edge-cases)</i></p>
+            <p className="text-lg mt-2"><span className="font-bold text-2xl">Secret Ops: </span> Real-World Problems.<br></br><span className="font-bold text-2xl">Mission:</span> Code &rsquo;Em Out.</p>
+            <p className="text-lg"><i className="font-bold">Codename: S.C.A.L.E. </i><br></br><i> (Strategic Coder Adapting Life&rsquo;s Edge-cases)</i></p>
             <a href="https://github.com/vn-vision"className="text-green-500 text-xl mt-[10%] animate-bounce">[Start Briefing ↓]</a>
           </div>
 

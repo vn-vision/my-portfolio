@@ -1,10 +1,11 @@
 import React from 'react'
+import { IconType } from 'react-icons'
 
-interface FieldCardProps {
-    title: string
-    description: string
-    projects: number
-    icon: any
+type FieldCardProps = {
+    title: string;
+    description: string;
+    projects: number;
+    icon: IconType;
 }
 function FieldCard({title, description, projects, icon}: FieldCardProps) {
   return (

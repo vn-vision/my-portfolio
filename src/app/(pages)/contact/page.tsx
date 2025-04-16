@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaXTwitter, FaSquareGithub, FaLinkedinIn, FaPhoneVolume,  } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -9,7 +10,7 @@ function SayHi() {
 
         <div className='flex flex-col gap-20 w-full justify-between'>
           <div className='flex flex-col gap-5'>
-            <h1 className='text-4xl'>Let's build that dream together.</h1>
+            <h1 className='text-4xl'>Let&rsquo;s build that dream together.</h1>
             <p className='text-2xl'>Start by <a href="mailto:vctrngang@gmail.com"><u className='text-green-400 hover:text-green-300'>Saying Hi</u></a></p>
           </div>
           <span className='flex gap-10'>
@@ -30,9 +31,9 @@ function SayHi() {
 
           <div className='flex flex-col gap-5 justify-between'>
             <div className='flex flex-col gap-5'>
-              <a href='/'>H - Home</a>
-              <a href='#about'>A - About</a>
-              <a href='#projects'>P - Projects</a>
+              <Link href='/'>H - Home</Link> 
+              <Link href='#about'>A - About</Link>
+              <Link href='#projects'>P - Projects</Link>
             </div>
           </div>
         </div>
