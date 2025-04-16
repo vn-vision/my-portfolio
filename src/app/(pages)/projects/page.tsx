@@ -1,27 +1,34 @@
-import React from 'react'
+import React from 'react';
 import ProjectCard from '@/app/components/ProjectCard';
+import {projects} from '@/app/data/MyProjects';
 
 function MyProjects() {
   return (
-    <div className="flex flex-col md:flex-row w-full lg:w-[80%] m-auto h-fit gap-10 my-[10%] md:my-[5%]">
-      <div className='flex flex-col w-full md:w-1/2 gap-10 justify-evenly h-fit overflow-y-auto'>
-      <div className='flex flex-col gap-5 text-center'>
-        <h1 className='text-4xl font-bold'>Latest Works</h1>
-        <p className='text-lg'>Here are some of the projects I have worked on</p>
+    <div className="flex flex-col gap-10 w-full lg:w-[80%] m-auto my-[10%] h-screen overflow-y-auto p-5">
+      {/* Header */}
+      <div className="text-center">
+        <h1 className="text-4xl font-bold">Latest Missions</h1>
+        <p className="text-lg text-gray-400">From automation to insights — code built for impact.</p>
       </div>
-      <ProjectCard title="Project 1" languages={["Java", "SQL"]} image="/vercel.svg" />
-      <div className="flex flex-col gap-5 p-5 text-center">
-        <h2 className='text-2xl'>ALL PROJECTS</h2>
-        <p>Some projects are not public by NDA, if you want to see more <a href="tel:254">contract</a></p>
+
+      {/* Projects Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {projects.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
       </div>
-      </div>
-      <div className='flex flex-col w-full md:w-1/2 h-fit overflow-y-auto gap-5'>
-      <ProjectCard title="Project 1" languages={["Javascript", "Python"]} image="/vercel.svg" />
-      <ProjectCard title="Project 2" languages={["Typescrip", "Python"]} image="/next.svg" />
-      <ProjectCard title="Project 3" languages={["C", "Python"]} image="/window.svg" />
+
+      {/* Footer Note */}
+      <div className="text-center text-sm text-gray-500 mt-10">
+        <p>
+          Some missions are classified. To unlock access,
+          <a href="mailto:vctrngang@gmail.com" className="text-teal-400 underline ml-1">
+            start briefing
+          </a>.
+        </p>
       </div>
     </div>
-  )
+  );
 }
 
 export default MyProjects;

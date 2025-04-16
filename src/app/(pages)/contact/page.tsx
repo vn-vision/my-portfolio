@@ -25,14 +25,14 @@ function SayHi() {
         <div className='flex flex-col gap-5 w-full justify-between'>
             <div className='flex flex-col gap-5'>
               <h1 className='text-2xl'>Nairobi Kenya 127.</h1>
-              <p className='text-xl'><a href="mailto:vctrngang@gmail.com">vctrngang@gmail.com</a></p>
+              <p className='text-xl'><a href="mailto:vctrngang@gmail.com"><u className='text-green-400 hover:text-green-300'>vctrngang@gmail.com</u></a></p>
             </div>
 
           <div className='flex flex-col gap-5 justify-between'>
             <div className='flex flex-col gap-5'>
-              <i>H - Home</i>
-              <i>A - About</i>
-              <i>P - Projects</i>
+              <a href='/'>H - Home</a>
+              <a href='#about'>A - About</a>
+              <a href='#projects'>P - Projects</a>
             </div>
           </div>
         </div>

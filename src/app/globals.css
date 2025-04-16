@@ -56,25 +56,26 @@ body {
 @media screen and (min-width: 768px) {
 
   @keyframes horizontal-0 {
-    0% { transform: rotate(0deg) translateY(150px) rotate(0deg); }
-    100% { transform: rotate(360deg) translateY(150px) rotate(-360deg); }
+    0% { transform: rotate(0deg) translateY(120px) rotate(0deg); }
+    100% { transform: rotate(360deg) translateY(120px) rotate(-360deg); }
   }
 
   @keyframes horizontal-1 {
-    0% { transform: rotate(90deg) translateY(150px) rotate(-90deg); }
-    100% { transform: rotate(450deg) translateY(150px) rotate(-450deg); }
+    0% { transform: rotate(90deg) translateY(120px) rotate(-90deg); }
+    100% { transform: rotate(450deg) translateY(120px) rotate(-450deg); }
   }
 
   @keyframes horizontal-2 {
-    0% { transform: rotate(180deg) translateY(150px) rotate(-180deg); }
-    100% { transform: rotate(540deg) translateY(150px) rotate(-540deg); }
+    0% { transform: rotate(180deg) translateY(120px) rotate(-180deg); }
+    100% { transform: rotate(540deg) translateY(120px) rotate(-540deg); }
   }
 
   @keyframes horizontal-3 {
-    0% { transform: rotate(270deg) translateY(150px) rotate(-270deg); }
-    100% { transform: rotate(630deg) translateY(150px) rotate(-630deg); }
+    0% { transform: rotate(270deg) translateY(120px) rotate(-270deg); }
+    100% { transform: rotate(630deg) translateY(120px) rotate(-630deg); }
   }
 }
+
 /* Apply the animations */
 .animate-horizontal-0 { animation: horizontal-0 10s linear infinite; }
 .animate-horizontal-1 { animation: horizontal-1 10s linear infinite; }
