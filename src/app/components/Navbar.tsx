@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='flex flex-col justify-evenly items-center w-full p-3 rounded-md shadow-md shadow-orange-400'>
       <h1 className="text-xl font-bold text-green-400 ">
-        Victor Ng'ang'a | vn-vision
+        Victor Ng&rsquo;ang&rsquo;a | vn-vision
       </h1>
       <nav className='flex w-full justify-between gap-5 items-center shadow-lg'>
         <ul className="flex gap-6 justify-evenly items-center text-lg overflow-x-auto rounded-md p-2 border-r-2 border-orange-300">

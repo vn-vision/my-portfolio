@@ -13,7 +13,7 @@ function AboutMe() {
           <p>Who am I ...</p>
           <h2 className="text-gray-200 font-bold text-4xl">
             <p>Hello!</p>
-            <p className='text-left'>I'm Victor Ng&rsquo;ang&rsquo;a.</p>
+            <p className='text-left'>I&rsquo;m Victor Ng&rsquo;ang&rsquo;a.</p>
           </h2>
         </>
         <p className='text-gray-300 text-xl'>
@@ -21,7 +21,7 @@ function AboutMe() {
         </p>
         <p><i>
         With years of experience solving real-world challenges, I&rsquo;ve collaborated on retail tools, real estate systems, and automation projects.
-        I'm curious by nature, mission-driven by choice, and always on a journey to level up my craft — one project, one breakthrough at a time.
+        I&rsquo;m curious by nature, mission-driven by choice, and always on a journey to level up my craft — one project, one breakthrough at a time.
         </i></p>
       </div>
       <div className="flex flex-col gap-3 w-full md:w-[45%]">
