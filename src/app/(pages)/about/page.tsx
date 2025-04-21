@@ -25,9 +25,9 @@ function AboutMe() {
         </i></p>
       </div>
       <div className="flex flex-col gap-3 w-full md:w-[45%]">
-        <FieldCard title="Frontend Development" description="I bring interfaces to life, making ideas clickable, responsive and real." projects={5} icon={<FaHtml5/>} />
-        <FieldCard title="Backend Development" description="I architect clean, scalable systems that make real-world operations seamless." projects={5} icon={<AiFillDatabase/>} />
-        <FieldCard title="Mobile Development" description="I create experiences that fit in your pocket, powered by resilient backend logic." projects={1} icon={<MdOutlineDeveloperMode/>} />
+        <FieldCard title="Frontend Development" description="I bring interfaces to life, making ideas clickable, responsive and real." projects={5} icon={FaHtml5} />
+        <FieldCard title="Backend Development" description="I architect clean, scalable systems that make real-world operations seamless." projects={5} icon={AiFillDatabase} />
+        <FieldCard title="Mobile Development" description="I create experiences that fit in your pocket, powered by resilient backend logic." projects={1} icon={MdOutlineDeveloperMode} />
       </div>
     </div>
   )
