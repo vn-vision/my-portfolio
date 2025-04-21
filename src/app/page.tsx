@@ -36,12 +36,15 @@ export default function Home() {
 
               {/* Floating Skills - The Horizontal Aura */}
               <div className="absolute inset-0 bg-black/50 backdrop-blur-lg w-36 h-36 md:w-48 md:h-48 top-[10%] left-[80%] translate-x-[-25%] flex justify-center gap-10 items-center rounded-full shadow-lg shadow-orange-400">
-                {[<SiRedux title="redux" />, <SiDjango title="Django" />, <FaReact title="React" />, <FaNodeJs title="Node.js" />].map((skill, index) => (
+                {[{'title':'redux', 'icon': <SiRedux />},
+                {'title':'Django', 'icon':<SiDjango />},
+                {'title':'React', 'icon':<FaReact />},
+                {'title':'NodeJs', 'icon':<FaNodeJs/>}].map((skill, index) => (
                   <div
-                    key={`skill-${index}`}
+                    key={skill.title}
                     className={`absolute animate-horizontal-${index} bg-green-400 text-gray-800 p-2 rounded-full text-md md:text-lg shadow-lg shadow-orange-200 hover:scale-110 hover:shadow-blue-400 transition-transform`}
                   >
-                    {skill}
+                    {skill.icon}
                   </div>
                 ))}
               </div>
