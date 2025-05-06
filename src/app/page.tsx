@@ -63,7 +63,7 @@ export default function Home() {
       </div>
 
       {/* Tech Stack Section with Tooltips */}
-      <div className="w-full h-[20%] flex items-center justify-evenly gap-5 my-[10%] md:my-[5%] m-auto ">
+      <div className="w-full h-[20%] flex items-center justify-evenly gap-5 my-[10%] md:my-[5%] m-auto overflow-x-auto scroll-smooth overflow-y-hidden">
         {[{ Icon: FaCuttlefish, name: 'C Language' }, { Icon: FaPython, name: 'Python' }, { Icon: FaJs, name: 'JavaScript' },  { Icon: SiTypescript, name: 'TypeScript' }].map(({ Icon, name }, index) => (
           <div key={index} className="relative group text-center">
             <Icon className="text-7xl" />
