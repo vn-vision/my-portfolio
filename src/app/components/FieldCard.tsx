@@ -9,7 +9,7 @@ type FieldCardProps = {
 }
 function FieldCard({title, description, projects, icon: Icon}: FieldCardProps) {
   return (
-    <div className='w-full h-fit rounded flex flex-col gap-5 shadow-md bg-gray-900 p-5 hover:bg-gray-600'>
+    <div className='w-full h-fit rounded flex flex-col gap-5 shadow-md shadow-gray-800 bg-gray-900 p-5 hover:bg-gray-600 active:bg-gray-600'>
     <span className='text-lg text-green-400 flex justify-between'>
         <h2>{title}</h2>
         <Icon />

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full lg:w-[80%] m-auto min-h-screen overflow-y-auto p-3 scroll-smooth">
       <Navbar />
-      <div className="flex flex-col gap-5 justify-evenly w-full h-fit m-auto my-[10%] md:my-[5%] lg:w-[80%]">
+      <div className="flex flex-col gap-5 justify-evenly w-full h-fit m-auto my-[10%] md:my-[5%]">
         {/* Left Section */}
         <div className="flex flex-col-reverse md:flex-row gap-10 w-full m-auto ">
           <div className="flex flex-col gap-5 justify-evenly">
@@ -23,9 +23,9 @@ export default function Home() {
           </div>
 
           {/* Profile Image with Animated Horizontal Halo */}
-          <div className="flex justify-center w-full">
+          <div className="flex justify-center w-full md:w-[80%]">
             <div className="bg-gray-900 shadow-md shadow-orange-300 w-full md:w-[80%] aspect-square mt-auto rounded-full overflow-hidden relative flex items-center justify-center">
-              <div className="relative w-[200px] h-[200px] md:w-[250px] md:h-[250px] left-[-20%] top-[20%]">
+              <div className="relative w-[200px] h-[200px] md:w-[250px] md:h-[250px] left-[-20%] top-[20%] md:left-[-15%] md:top-[30%]">
                 <Image
                   src="/images/menhanced.png"
                   fill

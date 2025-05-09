@@ -4,7 +4,7 @@ import {projects} from '@/app/data/MyProjects';
 
 function MyProjects() {
   return (
-    <div className="flex flex-col gap-10 w-full lg:w-[80%] m-auto my-[10%] h-screen overflow-y-auto p-5">
+    <div className="flex flex-col gap-10 w-full lg:w-[80%] m-auto my-[10%] h-fit overflow-y-auto p-5">
       {/* Header */}
       <div className="text-center">
         <h1 className="text-4xl font-bold">Latest Missions</h1>
